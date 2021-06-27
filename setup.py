@@ -19,3 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
 )
+
+
+install_requires = [i.strip() for i in open("requirements.txt").readlines()]
